@@ -1,0 +1,18 @@
+My Project Plan
+
+Objective: 
+I am creating a webpage that displays what the hubble is looking at. My internship has me replicating sites so this was the inspiration.
+
+Project Requirements*:
+*WebName
+*Hubble Information
+*About section
+*Display the current date - Formatted nicely on the page, such as Today is August 17, 2020 to show the current date when the page is viewed
+*A gallery
+
+* These are required
+
+Tasks:
+Create the files needed to make a web page
+Read documentation for building whatever
+Proofread everything before submitting

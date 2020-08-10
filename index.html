@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<head>
+  <title>4800Project</title>
+  <script src="responsive.js"></script>
+</head>
+
+<body>
+  <link rel="stylesheet" href="style.css">
+  <!--Navigation bar-->
+  <div class="navbar">
+    <ul class="navbar-container">
+      <li><a href="#" class="left-underline nav-button brand-logo">HubbleAppreciation</a></li>
+      <li class="nav-item"><a href="#section-3" class="left-underline nav-button" data-scroll>About</a></li>
+      <li class="nav-item"><a href="#section-2" class="left-underline nav-button" data-scroll>Pictures</a></li>
+      <li class="nav-item active"><a href="#section-1" class="left-underline nav-button" data-scroll>Home</a></li>
+    </ul>
+  </div>
+
+<!--First div element-->
+  <div class="parallax p1" id="section-1"  style = "background-image: url(https://www.spacetelescope.org/static/archives/images/screen/heic0821c.jpg)">
+    <hgroup>
+      <h1>Happy 25th Birthday Hubble</h1>
+      <img src="https://www.nasa.gov/sites/default/files/thumbnails/image/hst-sm4.jpg" style="width:50%">
+      <table align="right" border = "black" style="color: lavender; border-color: purple; border-width: 5px">
+        <tr>
+          <th>MileStones</th>
+          <th>Date</th>
+        </tr>
+        <tr>
+          <td>Launch</td>
+          <td>1985</td>
+        </tr>
+        <tr>
+          <td>100,000th Exposure</td>
+          <td>1996</td>
+        </tr>
+      </table>
+    </hgroup>
+  </div>
+
+
+  <h1>The Inception of the Hubble Telescope</h1>
+  <p style="text-align: center;">From the dawn of humankind to a mere 400 years ago, all that we knew about our universe came through observations with the naked eye. Then Galileo turned his telescope toward the heavens in 1610. The world was in for an awakening. Fast forward, Hubble's launch and deployment in April 1990 marked the most significant advance in astronomy since Galileo's telescope. Thanks to five servicing missions and more than 25 years of operation, our view of the universe and our place within it has never been the same. </p>
+
+
+<!--Second div bar element-->
+  <div class="parallax p2" id="section-2" style=" padding: 50px">
+    <h1>Hubble Telescope Captures</h1>
+    <p>Click on the buttons to change the grid view.</p>
+    <button class="btn" onclick="one()">1</button>
+    <button class="btn active" onclick="two()">2</button>
+    <button class="btn" onclick="three()">3</button>
+
+
+    <!-- Photo Grid -->
+    <div class="row"> 
+      <div class="column">
+        <img src="https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg" style="width:100%">
+        <img src="https://astronomy.com/-/media/Images/News%20and%20Observing/News/2017/04/ASYGI0415_1.jpg?mw=600" style="width:100%">
+        <img src="https://i.pinimg.com/originals/8a/3e/17/8a3e17fe733582a27a3aef2d62987305.jpg" style="width:100%">
+
+      </div>
+      <div class="column">
+        <img src="https://i.pinimg.com/originals/c1/25/38/c12538f289b15189e741985756e4c6df.jpg" style="width:100%">
+        <img src="https://cdn.mos.cms.futurecdn.net/zKupvCf2pYuDfW5K4ZQwAF-1200-80.jpg" style="width:100%">
+        <img src="https://thumbs-prod.si-cdn.com/miJUBa-03ieRqBECNvItOCWyZ9E=/fit-in/1072x0/https://public-media.si-cdn.com/filer/4a/45/4a458c3d-442d-49ed-a307-8fa8dc5f0f21/hs-2010-13-a-large_web.jpg" style="width:100%">
+
+      </div>  
+      <div class="column">
+        <img src="https://cdn.spacetelescope.org/archives/images/screen/heic1919a.jpg" style="width:100%">
+        <img src="https://cdn.spacetelescope.org/archives/images/screen/potw1422a.jpg" style="width:100%">
+        <img src="https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=1600,q=80,fit=contain/content_image/2019/2/15/1550268475563-most-beautiful-photos-of-the-universe-hubble.jpeg" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="https://psmag.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTI5Njg5MTg5MTA4MjE1Nzc4/crab-nebulajpg.jpg" style="width:100%">
+        <img src="https://i.pinimg.com/originals/22/fe/b6/22feb6729d7680f285027cb50c3c7cef.jpg" style="width:100%">
+        <img src="https://i.ytimg.com/vi/RY4uivIh-ik/maxresdefault.jpg" style="width:100%">
+      </div>
+    </div>
+  </div>
+
+ 
+
+<!--Second div bar element-->
+<div class="parallax p3">
+  <h1 style="text-align: center">More</h1>
+  <p>
+    <ul style="text-align: left;">
+      <li>Mission</li>
+      <ol>
+        <li>Launch: April 24, 1990, from space shuttle Discovery (STS-31)</li>
+        <li>Deployment: April 25, 1990</li>
+        <li>First Image: May 20, 1990: Star cluster NGC 3532</li>
+        <li>Servicing Mission 1 (STS-61): December 1993</li>
+        <li>Servicing Mission 2 (STS-82): February 1997</li>
+        <li>Servicing Mission 3A (STS-103): December 1999</li>
+        <li>Servicing Mission 3B (STS-109): February 2002</li>
+        <li>Servicing Mission 4 (STS-125): May 2009</li>
+      </ol>
+      <br>
+      <li>Size</li>
+      <ol>
+        <li>Length: 43.5 feet (13.2 m)</li>
+        <li>Weight: At Launch:  about 24,000 pounds (10,886 kg)</li>
+        <li>Post SM4:  about 27,000 pounds (12,247 kg)</li>
+        <li>Maximum Diameter: 14 feet (4.2 m)</li>
+      </ol>
+      <br>
+      <li>Power Necessity</li>
+      <ol>
+        <li>Energy Source: The Sun</li>
+        <li>Mechanism: Two 25-foot solar panels</li>
+        <li>Power Generation (in Sunlight): about 5,500 watts</li>
+        <li>Power Usage (Average): about 2,100 watts</li>
+      </ol>
+    </ul>
+
+  </p>
+</div>
+<footer>
+  <div class="row" id="section-3">
+    <div class="col-3">
+      <p></p>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 1999 Reham Ghoneim.
+    </div>
+  </div>
+</footer>
+</body

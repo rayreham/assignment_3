@@ -1,4 +1,4 @@
- //this function in java script is used to navigate the page when clicking elements in bar
+//this function in java script is used to navigate the page when clicking elements in bar
 function scrolling() {
 	scrollPos = $(this).scrollTop();
 	$('.p1').css({
@@ -62,3 +62,4 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
+
